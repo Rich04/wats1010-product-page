@@ -4,5 +4,14 @@
 body {
     padding-top: 30px;
     padding-bottom: 20px;
-    color: green;
+  background:#05cf9b;
+}
+.main-container{
+  background:#1fb58f;
+}
+
+.title{
+  color:#f2414e;
+  text-align:center;
+  background:transparent;
 }
