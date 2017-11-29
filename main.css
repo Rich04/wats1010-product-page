@@ -1,4 +1,4 @@
-/* Styles for Product Page Customization */
+
 
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
@@ -37,23 +37,32 @@ h3 {
 	font-family: 'Boogaloo', cursive;
 }
 
-
- 
-.video container  {
- position: absolute;
-  width: 80%;
-  height: auto;
-	margin-left:auto;
-	margin-right:auto;
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
 }
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+} 
+
 
 
 /*--Product Section--*/
 .glyphicon { margin-right:5px; }
 .thumbnail
 {
-    margin-bottom: 20px;
-    padding: 0px;
+    margin-bottom: 2px;
+    padding: 2px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
@@ -63,13 +72,12 @@ h3 {
 {
     float: none;
     width: 100%;
-    background-color: black 
-			!important;
-    margin-bottom: 10px;
+    background-color: black;
+    margin-bottom: 100px;
 }
 .item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
 {
-    background: black;
+    background:darkgreen;
 }
 
 .item.list-group-item .list-group-image
@@ -78,7 +86,7 @@ h3 {
 }
 .item.list-group-item .thumbnail
 {
-    margin-bottom: 0px;
+    margin-bottom: 3px;
 }
 .item.list-group-item .caption
 {
@@ -86,13 +94,13 @@ h3 {
 }
 .item.list-group-item:nth-of-type(odd)
 {
-    background: black;
+    background: white;
 }
 
 .item.list-group-item:before, .item.list-group-item:after
 {
     display: table;
-    content: " ";
+    
 }
 
 .item.list-group-item img
