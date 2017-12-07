@@ -58,67 +58,59 @@ h3 {
 
 
 /*--Product Section--*/
-.glyphicon { margin-right:5px; }
-.thumbnail
-{
-    margin-bottom: 2px;
-    padding: 2px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-}
-
-.item.list-group-item
-{
-    float: none;
-    width: 100%;
-    background-color: black;
-    margin-bottom: 100px;
-}
-.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
-{
-    background:darkgreen;
-}
-
-.item.list-group-item .list-group-image
-{
-    margin-right: 10px;
-}
-.item.list-group-item .thumbnail
-{
-    margin-bottom: 3px;
-}
-.item.list-group-item .caption
-{
-    padding: 9px 9px 0px 9px;
-}
-.item.list-group-item:nth-of-type(odd)
-{
-    background: white;
-}
-
-.item.list-group-item:before, .item.list-group-item:after
-{
-    display: table;
-    
-}
-
-.item.list-group-item img
-{
-    float: left;
-}
-.item.list-group-item:after
+div.clear
 {
     clear: both;
 }
-.list-group-item-text
-{
-    margin: 0 0 11px;
+
+div.product-chooser{
+    
 }
+
+div.product-chooser.disabled div.product-chooser-item{
+		zoom: 1;
+		filter: alpha(opacity=60);
+		opacity: 0.6;
+		cursor: default;
+}
+
+div.product-chooser div.product-chooser-item{
+		padding: 11px;
+		border-radius: 6px;
+		cursor: pointer;
+		position: relative;
+		border: 1px solid #f2414e;
+		margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10x;
+}
+	
+	
+	
+	
+div.product-chooser div.product-chooser-item img{
+			padding: 0;
+}
+		
+div.product-chooser div.product-chooser-item span.title{
+			display: block;
+			margin: 10px 0 5px 0;
+			font-weight: bold;
+			font-size: 16px;
+}
+		
+div.product-chooser div.product-chooser-item span.description{
+			font-size: 14px;
+}
+		
+div.product-chooser div.product-chooser-item input{
+			position: absolute;
+			left: 0;
+			top: 0;
+			visibility:hidden;
+}
+
 /*--End of Product--*/
-
-
-
 
 
 
@@ -250,75 +242,3 @@ footer {
 
 
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
- 
-
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
